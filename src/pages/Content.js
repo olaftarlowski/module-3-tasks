@@ -1,27 +1,9 @@
-import styled from "styled-components";
-
 import Card from "../components/Card/Card";
 import Form from "../components/Form";
 import { Menu, MenuLink } from "../components/Menu";
 import Employees from "../components/Employees/Employees";
 import HrLine from "../components/HrLine";
-
-const ContentWrapper = styled.div`
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-const ElementsWrapper = styled.div`
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  margin: 40px 0;
-  width: 100%;
-`;
+import { ContentWrapper, ElementsWrapper } from "./Content.styled";
 
 const Content = () => {
   return (

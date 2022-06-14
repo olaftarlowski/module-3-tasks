@@ -20,14 +20,14 @@ const Form = () => {
       <Input
         bgColor="alizarin"
         color="clouds"
-        borderRadius="8px"
+        borderRadius="18px"
         borderColor="#fff"
         borderSize="2px"
       />
       <Textarea
         bgColor="alizarin"
         color="clouds"
-        borderRadius="12px"
+        borderRadius="28px"
         borderColor="#fff"
         borderSize="2px"
       />

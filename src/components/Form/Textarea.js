@@ -9,12 +9,12 @@ const Textarea = ({
   borderColor,
 }) => {
   const styles = {
-    fontSize: "18px",
-    margin: "5px",
-    backgroundColor: `${colorPalette[bgColor]}`,
-    color: `${colorPalette[color]}`,
+    fontSize: 18,
+    margin: 5,
+    backgroundColor: colorPalette[bgColor],
+    color: colorPalette[color],
     border: `${borderSize} solid ${borderColor}`,
-    borderRadius: `${borderRadius}`,
+    borderRadius: borderRadius,
   };
 
   return (

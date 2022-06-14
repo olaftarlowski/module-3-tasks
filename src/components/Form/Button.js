@@ -5,16 +5,14 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { colorPalette } from "./colors-styling";
 
 const Button = ({ bgColor, color, icon, children }) => {
-  
-
   const styles = {
-    width: "120px",
-    height: "46px",
+    width: 120,
+    height: 46,
     cursor: "pointer",
-    fontSize: "20px",
-    margin: "4px",
-    backgroundColor: `${colorPalette[bgColor]}`,
-    color: `${colorPalette[color]}`,
+    fontSize: 20,
+    margin: 4,
+    backgroundColor: colorPalette[bgColor],
+    color: colorPalette[color],
   };
 
   return (
